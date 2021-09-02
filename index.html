@@ -5,30 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="dist/css/main.css">
+  <script src="https://kit.fontawesome.com/8d43c58fe5.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+<main id="container">
+  <section class="intro">
+    <img id="logo" src="images/logo.svg" alt="Ping logo">
+      <h1>We are launching <span>soon!</span></h1>
+    
+      <h2>Subscribe and get notified</h2>
+  </section>
+  <form action="" id="form">
+    <div class="form-control">
+      <input type="email" class="" name="" id="email" placeholder="Your email address...">
+      <small id="small">Please provide a valid email address</small>
+    </div>
+    <button class="btn" type="submit">Notify Me</button>
+  </form>
+    <img src="images/illustration-dashboard.png" id="illust" alt="Illustration Dashboard">
+  <section id=footer>
+    <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" title="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" title="instagram"><i class="fab fa-instagram"></i></a>
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+  </section>
 
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
+</main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

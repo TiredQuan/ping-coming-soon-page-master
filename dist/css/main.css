@@ -1,0 +1,206 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+#container {
+  margin: 100px 2.667vw;
+}
+
+#logo {
+  margin: 50px;
+  width: 100px;
+}
+
+#illust {
+  width: 85.333vw;
+  height: 51.200vw;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: #969696;
+  font-weight: 300;
+}
+
+.intro h1 span {
+  font-weight: 700;
+  color: #151f29;
+}
+
+.intro h2 {
+  font-weight: 300;
+}
+
+form {
+  margin: 50px 0 100px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form small {
+  display: block;
+  margin: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 300px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #ff5263;
+  display: none;
+}
+
+input {
+  padding-left: 50px;
+  border: 1px solid #c2d3ff;
+  width: 74.400vw;
+  height: 76px;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  margin: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #5283ff;
+}
+
+input::-webkit-input-placeholder {
+  font-weight: 300;
+  color: #969696;
+}
+
+input:-ms-input-placeholder {
+  font-weight: 300;
+  color: #969696;
+}
+
+input::-ms-input-placeholder {
+  font-weight: 300;
+  color: #969696;
+}
+
+input::placeholder {
+  font-weight: 300;
+  color: #969696;
+}
+
+button {
+  width: 74.400vw;
+  height: 76px;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  margin: 10px;
+  border: none;
+  background-color: #4f7df3;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(79, 125, 243, 0.836);
+}
+
+.btn:active {
+  background-color: #4f7df3;
+}
+
+#footer {
+  margin-top: 150px;
+}
+
+#footer a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #969696;
+  color: #4f7df3;
+  margin: 10px 10px 30px 10px;
+}
+
+#footer a:hover {
+  background-color: #4f7df3;
+  color: white;
+}
+
+#footer a i {
+  padding-top: 25%;
+  font-size: 1.75rem;
+}
+
+#footer p {
+  color: #969696;
+}
+
+.error {
+  border: 2px solid #ff5263;
+}
+
+@media screen and (min-width: 900px) {
+  form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  form .form-control {
+    height: 60px;
+  }
+  form input {
+    height: 60px;
+    font-size: 1.125rem;
+    width: 420px;
+    padding-left: 30px;
+    margin: 0;
+  }
+  form small {
+    width: 350px;
+    text-align: left;
+  }
+  form button {
+    height: 60px;
+    font-size: 1.125rem;
+    width: 200px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  #illust {
+    width: 640px;
+    height: 384px;
+  }
+  #footer a {
+    width: 50px;
+    height: 50px;
+    margin: 10px 8px 30px 8px;
+  }
+  #footer a i {
+    padding-top: 23%;
+    font-size: 1.625rem;
+  }
+  #footer p {
+    color: #969696;
+  }
+}
+/*# sourceMappingURL=main.css.map */
